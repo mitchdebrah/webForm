@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Vacation Destination Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="topbanner">
+        <h3>Vacation Destinations WishList</h3>
+        <p>Found any exciting places to visit on your next vacation? Use the form below to add them to your wishlist.</p>
+    </section>
+    <section class="bkgcl">  
+    <div class="registration-form">
+        <form id="myForm" class="form">
+            <h4 id="destined">Enter Destination Details</h4>
+            <p>Destination name</p>
+            <input type="text" name="nameofplace" placeholder="Enter name of destination" required name="nameofplace">
+            <p>Location</p>
+            <input type="text" name="location" placeholder="Where is it located?" required name="location">
+            <p>Photo</p>
+            <input type="text" name="photo" placeholder="Enter an image url of the place">
+            <p>Description</p>
+            <input type="text" name="description" placeholder="where is it located">
+            <button type="submit">Add to list</button>
+
+        </form>
+    </div>
+</section> 
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
